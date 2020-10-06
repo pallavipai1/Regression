@@ -18,18 +18,30 @@ This dataset contains predictions about club soccer predictions. Spi_matches.csv
     Merged 'spi_matches' and 'spi_global_rankings' dataframe on team name in a single dataframe in order to get entire dataset in one frame.
 
 3.	Data Analysis
-Analyzed the data and converted ‘date’ column to date datatype.
+	Analyzed the data and converted ‘date’ column to date datatype.
+	
 	Analyzed the start date and end date for each league in each season.
-Calculated the duration for which each league lasted in each season. Noted that leagues in 2019 lasted for the most time. ‘Swiss Raiffeisen Super League’ lasted for the greatest number of days
-Analyzed the number of matches played in each league in each season. Noted that the most matches were played in ‘United soccer league’ in its 2019 season followed by ‘English League championship’ in 2018 season.
-Performed linear regression between spi and rank and predicted ranks for the teams. Noted that team ranks are directly related to their spi
-Performed gradient boost regression on the data and noted the relation between spi and ranks. 
-Using multiple linear regression, derived a relation between xsg, nsxg and adjusted scored and derived the equation for predicting scores.
+	
+	Calculated the duration for which each league lasted in each season. Noted that leagues in 2019 lasted for the most time. ‘Swiss Raiffeisen Super League’ lasted for the 	 greatest number of days
+	
+	Analyzed the number of matches played in each league in each season. Noted that the most matches were played in ‘United soccer league’ in its 2019 season 			followed by ‘English League championship’ in 2018 season.
+	
+	Performed linear regression between spi and rank and predicted ranks for the teams. Noted that team ranks are directly related to their spi
+	
+	Performed gradient boost regression on the data and noted the relation between spi and ranks. 
+	
+	Using multiple linear regression, derived a relation between xsg, nsxg and adjusted scored and derived the equation for predicting scores.
+	
 4.	Data Plotting
-Plotted all the predicted data as per linear regression model using a scatter plot
-Plotted the actual value using a line graph on the axes to observe the relationship
-Plotted all the predicted data using gradient boost regression model using a scatter plot
-Plotted the actual value using a line graph on the axes to observe the relationship
+
+	Plotted all the predicted data as per linear regression model using a scatter plot
+	
+	Plotted the actual value using a line graph on the axes to observe the relationship
+	
+	Plotted all the predicted data using gradient boost regression model using a scatter plot
+	
+	Plotted the actual value using a line graph on the axes to observe the relationship
+	
 5.	Conclusion/Inferences
 (Feature Engineering) Derived the movies with maximum user ratings and noted that 'Forrest Grump' topped the list with 3518 user ratings followed by 'Shawshank Redemption' with 3488 user ratings
 Most users give a rating of 4 stars for movies.
