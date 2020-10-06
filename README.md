@@ -43,6 +43,10 @@ This dataset contains predictions about club soccer predictions. Spi_matches.csv
 	Plotted the actual value using a line graph on the axes to observe the relationship
 	
 5.	Conclusion/Inferences
-(Feature Engineering) Derived the movies with maximum user ratings and noted that 'Forrest Grump' topped the list with 3518 user ratings followed by 'Shawshank Redemption' with 3488 user ratings
-Most users give a rating of 4 stars for movies.
-Most movies received a rating between 3 to 4 stars
+
+	Derived the longest running leagues and matches played per league.
+	
+	There is a direct relationship among spi and rankings for each soccer team
+	
+	Predicted scores for each team using adjusted goals, shot-based expected goals, shot-based expected goals. Co-efficients obtained were 0.03972229 0.00118525 1.00006083 	and intercept -0.07772439. Predicted the goal scored and noted that the result was almost as expected.
+
