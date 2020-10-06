@@ -30,7 +30,7 @@ This dataset contains predictions about club soccer predictions. Spi_matches.csv
 	
 	Performed gradient boost regression on the data and noted the relation between spi and ranks. 
 	
-	Using multiple linear regression, derived a relation between xsg, nsxg and adjusted scored and derived the equation for predicting scores.
+	Using multiple linear regression, derived a relation between xg, nsxg and adjusted scored and derived the equation for predicting scores.
 	
 4.	Data Plotting
 
